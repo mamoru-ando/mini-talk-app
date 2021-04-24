@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  root 'messgea#new'
-  resources :messages, only: [:create]
+  get 'messages/new'
 end
